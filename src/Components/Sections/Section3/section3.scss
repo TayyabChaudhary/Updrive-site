@@ -1,0 +1,99 @@
+.background-color{
+    background-color: #F8F9F9;
+    min-height: 80vh;
+    h1{
+        padding-top: 100px;
+        color: #3E4958;
+    }
+}
+.box{
+    .location-1{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        font-size: 7em;
+        color: rgb(253, 197, 1);
+    }
+    &:hover{
+        color: rgb(73, 250, 28);
+        border-bottom: 9px solid rgb(253, 197, 1);
+    }
+    .location-2{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        font-size: 7em;
+    }
+    .location-3{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        font-size: 7em;
+        color: #3E4958;
+    }
+    .location-4{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        font-size: 7em;
+        color: rgb(73, 250, 28);
+    }
+    &:hover{
+        color: rgb(253, 197, 1);
+        border-bottom: 9px solid rgb(253, 197, 1);
+    }
+    .car-1{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        font-size: 7em;
+        color: rgb(73, 250, 28);
+    }
+    .car-2{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        font-size: 7em;
+        color: rgb(73, 250, 28);
+    }
+    .car-3{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        font-size: 7em;
+        color: rgb(17, 32, 13);
+    }
+    .car-4{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        font-size: 7em;
+     
+    }
+}
+
+.location-image{
+    background-image: url(https://livedemo00.template-help.com/wt_prod-27536/images/bg-image-02.jpg);
+    background-size: cover;
+    min-height: 80vh;
+   
+}
+.background-car{
+    background-image: url(https://livedemo00.template-help.com/wt_prod-27536/images/home-08-1134x596.png);
+    background-size: cover;
+    min-height: 100vh;
+    z-index: 1;
+}
+.cap-1, .cap-2, .cap-3{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 7em;
+ 
+}
+button.button {
+    padding: 6px 115px;
+    border: none;
+    color: #fff;
+    background:  rgb(253, 197, 1);;
+}
